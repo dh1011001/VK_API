@@ -1,0 +1,14 @@
+{
+  "login": "+77058048293",
+  "password": "Tarantul##666",
+  "accountId": "802756743",
+  "firstPartPostId": "wpt802756743_",
+  "accessToken": "vk1.a.uWqpn5Dk8tOhcZcn1kQmHuuus7-2Nx5ImZJYP8v84ZaNbyZOO4PTjyY7xanOVTA5hWpR3RCSLcif1PtGSJF5oLbHcI0RJZGbpLv18-Ui5Xx4cYXtRxf0GOnvN6DDoeX437XLCLGh2vDh1g0d603QcpRB-S_hbB7-k6sWkJl5R2BV7YR9WM_bUz2RSFO_J0qfc49isKq2ysved_BoocXpbQ",
+  "requestCreatePost": "wall.post?",
+  "requesGetUploadServer": "photos.getWallUploadServer?",
+  "saveWallPhoto": "photos.saveWallPhoto?",
+  "editWallPost": "wall.edit?",
+  "createWallPostComment": "wall.createComment?",
+  "getLikes": "likes.getList?",
+  "deletePost": "wall.delete?"
+}

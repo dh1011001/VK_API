@@ -1,0 +1,17 @@
+{
+  "urlVkStartPage": "https://vk.com/",
+  "urlToAPIRequest": "https://api.vk.com/method/",
+  "access_token": "access_token",
+  "owner_id": "owner_id",
+  "v": "v",
+  "server": "server",
+  "photo": "photo",
+  "hash": "hash",
+  "post_id": "post_id",
+  "message": "message",
+  "attachments": "attachments",
+  "type": "type",
+  "item_id": "item_id",
+  "v_value": "5.131"
+
+}
