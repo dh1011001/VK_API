@@ -11,7 +11,6 @@ namespace VK_API
         [SetUp]
         public void Setup()
         {
-            Environment.CurrentDirectory = Path.GetDirectoryName(GetType().Assembly.Location);
             browser.Maximize();
             browser.GoTo(Config.urlVkStartPage);
             browser.WaitForPageToLoad();
