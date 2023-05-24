@@ -1,7 +1,4 @@
 ﻿using NUnit.Framework;
-using Aquality.Selenium;
-using Aquality.Selenium.Core.Configurations;
-using Aquality.Selenium.Core.Utilities;
 using Aquality.Selenium.Browsers;
 using VK_API.Resources;
 
@@ -14,6 +11,7 @@ namespace VK_API
         [SetUp]
         public void Setup()
         {
+            Environment.CurrentDirectory = Path.GetDirectoryName(GetType().Assembly.Location);
             browser.Maximize();
             browser.GoTo(Config.urlVkStartPage);
             browser.WaitForPageToLoad();

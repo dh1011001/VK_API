@@ -1,0 +1,67 @@
+{
+  "uuid": "ae9edf95-cc6e-472d-92e2-62754aa7563f-tr-0-1001",
+  "historyId": "VK_API.Tests.TestVK",
+  "fullName": "VK_API.Tests.TestVK",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "WIN-243FMVBKBR0"
+    },
+    {
+      "name": "package",
+      "value": "VK_API"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestVK"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    }
+  ],
+  "links": [],
+  "name": "TestVK",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.WebDriverTimeoutException : Navigation timed out after 15000 ms",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Navigator.Refresh()\r\n   at Aquality.Selenium.Browsers.BrowserNavigation.Refresh()\r\n   at Aquality.Selenium.Browsers.Browser.Refresh()\r\n   at VK_API.Tests.TestVK() in C:\\Users\\user\\source\\repos\\VK_API\\VK_API\\Tests.cs:line 87"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestVK",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverTimeoutException : Navigation timed out after 15000 ms",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Navigator.Refresh()\r\n   at Aquality.Selenium.Browsers.BrowserNavigation.Refresh()\r\n   at Aquality.Selenium.Browsers.Browser.Refresh()\r\n   at VK_API.Tests.TestVK() in C:\\Users\\user\\source\\repos\\VK_API\\VK_API\\Tests.cs:line 87"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "254b6b48dfa243208f6f4e4d41b55b7c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1684954106122,
+      "stop": 1684954160220
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1684954106122,
+  "stop": 1684954160223
+}

@@ -1,6 +1,6 @@
 ﻿{
   "allure": {
-    "directory": "allure-results",
+    "directory": "Allure-results",
     "links": [
       "https://github.com/AutomateThePlanet/Meissa/issues/{issue}",
       "https://github.com/AutomateThePlanet/Meissa/projects/2#card-{tms}",

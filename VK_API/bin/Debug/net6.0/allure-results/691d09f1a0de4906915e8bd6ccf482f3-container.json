@@ -1,0 +1,44 @@
+{
+  "uuid": "a093e519-178f-41b8-947d-4bf1cda0d2ee-tc-0-1000",
+  "name": "VK_API.Tests.TestVK",
+  "children": [
+    "02a7b406-fc6c-4ffa-be61-b5709b2ed460-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1684954418410,
+      "stop": 1684954418410
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1684954418410,
+      "stop": 1684954418410
+    }
+  ],
+  "links": [],
+  "start": 1684954379712,
+  "stop": 1684954418472
+}

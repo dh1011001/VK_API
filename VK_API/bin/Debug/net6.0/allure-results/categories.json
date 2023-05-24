@@ -7,10 +7,5 @@
     "name": "Product Bug",
     "matchedStatuses": [ "broken", "failed" ],
     "messageRegex": ".*AssertionException.*"
-  },
-  {
-    "name": "Calculator Problem",
-    "matchedStatuses": [ "failed" ],
-    "traceRegex": ".*DivideByZeroException.*"
   }
 ]

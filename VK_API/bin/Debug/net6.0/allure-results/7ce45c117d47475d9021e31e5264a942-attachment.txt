@@ -1,0 +1,39 @@
+2023-05-25 00:53:10 INFO - Browser 'Firefox' ready...
+2023-05-25 00:53:10 INFO - Maximizing browser window
+2023-05-25 00:53:10 INFO - Navigate to URL - 'https://vk.com/'
+2023-05-25 00:53:13 INFO - Waiting for page to load
+2023-05-25 00:53:13 INFO - Start step 1 and 2
+2023-05-25 00:53:13 INFO - Text Field 'LoginInputTextBox' :: Clearing
+2023-05-25 00:53:13 INFO - Text Field 'LoginInputTextBox' :: Typing '+77058048293'
+2023-05-25 00:53:13 INFO - Button 'SubmitButton' :: Clicking
+2023-05-25 00:53:14 INFO - Text Field 'PasswordInputTextBox' :: Clearing
+2023-05-25 00:53:14 INFO - Text Field 'PasswordInputTextBox' :: Typing 'Tarantul##666'
+2023-05-25 00:53:14 INFO - Button 'ContinueButton' :: Clicking
+2023-05-25 00:53:15 INFO - Start step 3
+2023-05-25 00:53:15 INFO - Label 'FeedPage' :: Waiting for element to be displayed
+2023-05-25 00:53:23 INFO - Button 'ProfileButton' :: Clicking
+2023-05-25 00:53:24 INFO - Start step 4
+2023-05-25 00:53:24 INFO - Label 'ProfilePage' :: Waiting for element to be displayed
+2023-05-25 00:53:27 INFO - Start step 5
+2023-05-25 00:53:27 INFO - Text Field 'postText' :: Getting text from element
+2023-05-25 00:53:27 INFO - Text Field 'postText' :: Element's text: [Gfpa5kvfXW]
+2023-05-25 00:53:27 INFO - Link 'authorPostLink' :: Getting attribute 'href'
+2023-05-25 00:53:27 INFO - Link 'authorPostLink' :: Value of attribute 'href': [https://vk.com/id802756743]
+2023-05-25 00:53:27 INFO - Start step 6
+2023-05-25 00:53:29 INFO - Start step 7
+2023-05-25 00:53:29 INFO - Text Field 'postText' :: Getting text from element
+2023-05-25 00:53:29 INFO - Text Field 'postText' :: Element's text: [7uPWtmOgLX]
+2023-05-25 00:53:29 INFO - Start step 8
+2023-05-25 00:53:29 INFO - Start step 9
+2023-05-25 00:53:29 INFO - Refreshing the page
+2023-05-25 00:53:33 INFO - Text Field 'commentText' :: Getting text from element
+2023-05-25 00:53:33 INFO - Text Field 'commentText' :: Element's text: [Wti5prV0AC]
+2023-05-25 00:53:33 INFO - Link 'authorCommentLink' :: Getting attribute 'href'
+2023-05-25 00:53:34 INFO - Link 'authorCommentLink' :: Value of attribute 'href': [https://vk.com/id802756743]
+2023-05-25 00:53:34 INFO - Start step 10
+2023-05-25 00:53:34 INFO - Button 'likeButton' :: Clicking
+2023-05-25 00:53:35 INFO - Start step 11
+2023-05-25 00:53:35 INFO - Start step 12
+2023-05-25 00:53:35 INFO - Start step 12
+2023-05-25 00:53:35 INFO - Label 'postToCheck' :: Waiting for element to be invisible or absent
+2023-05-25 00:53:36 INFO - Closing browser

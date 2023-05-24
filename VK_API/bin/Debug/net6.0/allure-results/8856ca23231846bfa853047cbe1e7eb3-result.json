@@ -1,0 +1,64 @@
+{
+  "uuid": "bd6325da-1561-4383-96fa-fad82c963f93-tr-0-1001",
+  "historyId": "VK_API.Tests.TestVK",
+  "fullName": "VK_API.Tests.TestVK",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "WIN-243FMVBKBR0"
+    },
+    {
+      "name": "package",
+      "value": "VK_API"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestVK"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    }
+  ],
+  "links": [],
+  "name": "TestVK",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestVK"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestVK",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "5fb6396b87cd4b21b02106bfe530aeb3-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1684954258242,
+      "stop": 1684954299305
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1684954258242,
+  "stop": 1684954299311
+}

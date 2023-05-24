@@ -1,3 +1,4 @@
+using Allure.Commons;
 using Aquality.Selenium.Browsers;
 using Aquality.Selenium.Core.Logging;
 using Newtonsoft.Json;
@@ -19,7 +20,13 @@ namespace VK_API
     public class Tests : BaseTest
     {
         [Test]
-        [AllureSubSuite("Add")]
+        [AllureTag("Regression")]
+        [AllureSeverity(SeverityLevel.critical)]
+        [AllureIssue("ISSUE-1")]
+        [AllureTms("TMS-12")]
+        [AllureOwner("User")]
+        [AllureSuite("PassedSuite")]
+        [AllureSubSuite("NoAssert")]
         public void TestVK()
         {
             Logger.Instance.Info("Start step 1 and 2");

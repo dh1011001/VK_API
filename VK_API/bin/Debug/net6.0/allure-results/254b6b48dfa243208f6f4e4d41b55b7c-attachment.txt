@@ -1,0 +1,29 @@
+2023-05-25 00:48:37 INFO - Browser 'Firefox' ready...
+2023-05-25 00:48:37 INFO - Maximizing browser window
+2023-05-25 00:48:37 INFO - Navigate to URL - 'https://vk.com/'
+2023-05-25 00:48:40 INFO - Waiting for page to load
+2023-05-25 00:48:41 INFO - Start step 1 and 2
+2023-05-25 00:48:41 INFO - Text Field 'LoginInputTextBox' :: Clearing
+2023-05-25 00:48:41 INFO - Text Field 'LoginInputTextBox' :: Typing '+77058048293'
+2023-05-25 00:48:41 INFO - Button 'SubmitButton' :: Clicking
+2023-05-25 00:48:42 INFO - Text Field 'PasswordInputTextBox' :: Clearing
+2023-05-25 00:48:42 INFO - Text Field 'PasswordInputTextBox' :: Typing 'Tarantul##666'
+2023-05-25 00:48:42 INFO - Button 'ContinueButton' :: Clicking
+2023-05-25 00:48:43 INFO - Start step 3
+2023-05-25 00:48:43 INFO - Label 'FeedPage' :: Waiting for element to be displayed
+2023-05-25 00:48:54 INFO - Button 'ProfileButton' :: Clicking
+2023-05-25 00:48:55 INFO - Start step 4
+2023-05-25 00:48:55 INFO - Label 'ProfilePage' :: Waiting for element to be displayed
+2023-05-25 00:48:58 INFO - Start step 5
+2023-05-25 00:48:58 INFO - Text Field 'postText' :: Getting text from element
+2023-05-25 00:49:00 INFO - Text Field 'postText' :: Element's text: [Hnlh28iKJY]
+2023-05-25 00:49:00 INFO - Link 'authorPostLink' :: Getting attribute 'href'
+2023-05-25 00:49:00 INFO - Link 'authorPostLink' :: Value of attribute 'href': [https://vk.com/id802756743]
+2023-05-25 00:49:00 INFO - Start step 6
+2023-05-25 00:49:02 INFO - Start step 7
+2023-05-25 00:49:02 INFO - Text Field 'postText' :: Getting text from element
+2023-05-25 00:49:02 INFO - Text Field 'postText' :: Element's text: [9TS3lkoaJN]
+2023-05-25 00:49:02 INFO - Start step 8
+2023-05-25 00:49:02 INFO - Start step 9
+2023-05-25 00:49:02 INFO - Refreshing the page
+2023-05-25 00:49:18 INFO - Closing browser

@@ -1,0 +1,95 @@
+{
+  "uuid": "02a7b406-fc6c-4ffa-be61-b5709b2ed460-tr-0-1001",
+  "historyId": "VK_API.Tests.TestVK",
+  "fullName": "VK_API.Tests.TestVK",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "WIN-243FMVBKBR0"
+    },
+    {
+      "name": "package",
+      "value": "VK_API"
+    },
+    {
+      "name": "testMethod",
+      "value": "TestVK"
+    },
+    {
+      "name": "testClass",
+      "value": "Tests"
+    },
+    {
+      "name": "tag",
+      "value": "Regression"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "User"
+    },
+    {
+      "name": "suite",
+      "value": "PassedSuite"
+    },
+    {
+      "name": "subSuite",
+      "value": "NoAssert"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-1",
+      "url": "https://github.com/AutomateThePlanet/Meissa/issues/ISSUE-1",
+      "type": "issue"
+    },
+    {
+      "name": "TMS-12",
+      "url": "https://github.com/AutomateThePlanet/Meissa/projects/2#card-TMS-12",
+      "type": "tms"
+    }
+  ],
+  "name": "TestVK",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "TestVK"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "TestVK",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "7ce45c117d47475d9021e31e5264a942-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1684954379719,
+      "stop": 1684954418419
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1684954379719,
+  "stop": 1684954418424
+}

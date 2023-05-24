@@ -10,6 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="allureConfig.json" />
     <None Remove="Resources\Config.json" />
     <None Remove="Resources\Peppa_the_pig.png" />
     <None Remove="Resources\settings.json" />
@@ -17,6 +18,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="allureConfig.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="Resources\Config.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
@@ -32,7 +36,7 @@
   </ItemGroup>
 
 	<ItemGroup>
-		<Categories Include="Allure-results/categories.json" />
+		<Categories Include="categories.json" />
 	</ItemGroup>
 	<Target Name="CopyCategoriesToAllureFolder">
 		<Copy SourceFiles="@(Categories)" DestinationFolder="$(OutputPath)allure-results" />
@@ -54,6 +58,7 @@
 
   <ItemGroup>
     <Folder Include="Allure-report\" />
+    <Folder Include="Allure-results\" />
   </ItemGroup>
 
 </Project>
