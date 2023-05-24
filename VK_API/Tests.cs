@@ -2,6 +2,8 @@ using Aquality.Selenium.Browsers;
 using Aquality.Selenium.Core.Logging;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using NUnit.Allure.Attributes;
+using NUnit.Allure.Core;
 using NUnit.Framework;
 using RestSharp;
 using System;
@@ -13,9 +15,11 @@ using VK_API.Supporting_Classes;
 
 namespace VK_API
 {
+    [AllureNUnit]
     public class Tests : BaseTest
     {
         [Test]
+        [AllureSubSuite("Add")]
         public void TestVK()
         {
             Logger.Instance.Info("Start step 1 and 2");
